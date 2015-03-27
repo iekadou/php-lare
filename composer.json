@@ -1,0 +1,22 @@
+{
+  "name": "iekadou/php_pjaxr",
+  "type": "library",
+  "description": "PJAXR implementation for PHP",
+  "keywords": ["templating"],
+  "homepage": "http://iekadou.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonas Braun",
+      "email": "jonas@iekadou.com",
+      "homepage": "http://iekadou.com",
+      "role": "Project Founder"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.7"
+  },
+  "autoload": {
+    "files": ["src/PHP_Pjaxr/Pjaxr.php"]
+  }
+}
