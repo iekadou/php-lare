@@ -14,9 +14,14 @@
     }
   ],
   "require": {
-    "php": ">=5.2.7"
+    "php": ">=5.3.29"
   },
   "autoload": {
     "files": ["src/PHP_Pjaxr/Pjaxr.php"]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
   }
 }
