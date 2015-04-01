@@ -9,7 +9,7 @@ There are just two steps needed to install php-pjaxr:
 	```json
 	{
         "require": {
-            "iekadou/php_pjaxr": "~1.0",
+            "iekadou/php_pjaxr": ">=0.1.1",
         }
     }
 	```
@@ -17,6 +17,8 @@ There are just two steps needed to install php-pjaxr:
 2. Set the current Pjaxr namespace in your View or anywhere before your templates get rendered:
 
     ```php
+    use Iekadou\Pjaxr\Pjaxr as Pjaxr;
+    ...
     Pjaxr::set_current_namespace('Pjaxr.Home');
 	```
 

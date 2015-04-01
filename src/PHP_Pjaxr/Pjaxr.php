@@ -1,6 +1,6 @@
 <?php
 
-namespace Ikeadou\Pjaxr;
+namespace Iekadou\Pjaxr;
 
 class Pjaxr
 {
