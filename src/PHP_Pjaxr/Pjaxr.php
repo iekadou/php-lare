@@ -1,5 +1,7 @@
 <?php
 
+namespace Ikeadou\Pjaxr;
+
 class Pjaxr
 {
     private static $enabled = false;
